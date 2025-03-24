@@ -23,8 +23,8 @@ onmousemove = (e) => {
 
     const rgb = {
         red: 255 * (x / width),
-        green: 255 * (y / height),
-        blue: 255 * diagonalPercent,
+        green: 255 * diagonalPercent,
+        blue: 255 * (y / height),
     }
 
     const clientInside = clientX > left && clientX < right && clientY > top && clientY < bottom;
